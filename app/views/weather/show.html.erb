@@ -1,6 +1,6 @@
 <h2>Recommended City </h2>
 
-<p><%= @recommended_city %></p>
+<%= @recommended_city %> 
 
 <h2> All cities weather </h2>
 <% for weather in @weather_all_cities %>
@@ -12,6 +12,5 @@
 	<p><%= weather["pressure"] %> hPa</p>
 <% end %>	
 
-<%= @get_weather_1 %>
-<%= @get_weather_2 %>
-<%= @get_weather_5 %>
+
+Max: <%= @avg_temp %>
